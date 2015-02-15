@@ -1,0 +1,8 @@
+=haml :includes
+%title Discworld Planetary Information System
+.container
+  %form{ :class=>'pull-right', :submit=>'/turtles/', :method=>'get'}
+    %label Name
+    %input{:type=>'text', :name=>'user', :placeholder=>'Your ID'}
+    %label Password
+    %input{:type=>'password', :name=>'password', :placeholder=>'Password'}
